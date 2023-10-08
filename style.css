@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
     .hide-on-small {
-      display: none;
+      display: flex;
     }
   }
   
@@ -13,3 +13,4 @@
       display: none;
     }
   }
+
