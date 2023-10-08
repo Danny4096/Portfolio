@@ -1033,7 +1033,7 @@ video {
 
 
 
-.c { 
+.blogtitle { 
   position: relative;
   display: inline-block;
   font-family: Monaco, Arial, Helvetica, sans-serif;
@@ -1041,7 +1041,7 @@ video {
   color: white;
 }
 
-.c::after {
+.blogtitle::after {
   content: "";
   position: absolute;
   top:3px;
