@@ -1002,17 +1002,24 @@ video {
   outline-style: solid;
 }
 
-@media (max-width: 640px) {
+.smol { display: none; }
+
+@media (max-width: 800px) {
   .hide-on-small {
     display: none;
   }
+  .smol { display: inline-block; }
+  .beeg {display: none;}
+
 }
 
-@media (min-width: 641px) {
-  .hide-on-large {
-    display: none;
+
+@media (max-width: 640px) {
+  .anime-girl-fix {
+    text-align: left;
   }
 }
+
 
 .hover\:underline:hover {
   text-decoration-line: underline;
@@ -1028,6 +1035,8 @@ video {
   .lg\:flex {
     display: flex;
   }
+
+
 }
 
 
