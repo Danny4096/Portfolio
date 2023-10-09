@@ -1,0 +1,16 @@
+[package]
+name = "blogbuilder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+highlight-pulldown = "0.2.2"
+lazy_static = "1.4.0"
+markdown = "1.0.0-alpha.14"
+markdown-heading-id = "0.1.0"
+markdown-rs = "0.1.0"
+pulldown-cmark = "0.9.3"
+regex = "1.9.6"
